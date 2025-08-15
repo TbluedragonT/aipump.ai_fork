@@ -208,7 +208,7 @@
         static: {
           home: { title: "Stake", href: "/" },
           stake: { title: "Stake", href: "/" },
-          redeem: { title: "Redeem", href: "/redeem" },
+        
           mint: { title: "Mint", href: "/mint" },
           privacyPolicy: {
             title: "Privacy Policy",
@@ -2893,30 +2893,10 @@
                       value: u.aU.nodePointsPerHPerK,
                       showAllDecimals: !1,
                     }),
-                    countNodePointsForRedeem: (0, p.Pt)({
-                      value: u.aU.nodePointsPerRedemption,
-                      showAllDecimals: !1,
-                      abbreviationLowerBound: 1e6,
-                    }),
+                    
                   }),
                 }),
-                (0, a.jsx)("p", {
-                  className: "",
-                  children: n.rich("PageStake.StatsSection.explainLine2", {
-                    TextPrimary: (e) =>
-                      (0, a.jsx)("span", {
-                        className: "font-bold text-primary",
-                        children: e,
-                      }),
-                    countFragmentsFrom: "1",
-                    countFragmentsTo: "15",
-                    countNodePointsForRedeem: (0, p.Pt)({
-                      value: u.aU.nodePointsPerRedemption,
-                      showAllDecimals: !1,
-                      abbreviationLowerBound: 1e6,
-                    }),
-                  }),
-                }),
+                
               ],
             }),
           ],
