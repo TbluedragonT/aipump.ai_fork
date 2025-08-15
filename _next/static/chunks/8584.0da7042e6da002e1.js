@@ -4336,11 +4336,11 @@
           return (null != t ? t : e)
             ? z`<div><wcm-text variant="small-regular" color="secondary">By connecting your wallet to this app, you agree to the app's ${
                 t
-                  ? z`<a href="${t}" target="_blank" rel="noopener noreferrer">Terms of Service</a>`
+                  ? z`<a href="" target="_blank" rel="noopener noreferrer">Terms of Service</a>`
                   : null
               } ${t && e ? "and" : null} ${
                 e
-                  ? z`<a href="${e}" target="_blank" rel="noopener noreferrer">Privacy Policy</a>`
+                  ? z`<a href="" target="_blank" rel="noopener noreferrer">Privacy Policy</a>`
                   : null
               }</wcm-text></div>`
             : null;

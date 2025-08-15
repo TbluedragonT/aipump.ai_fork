@@ -211,14 +211,14 @@
         
           mint: { title: "Mint", href: "/mint" },
           privacyPolicy: {
-            title: "Privacy Policy",
-            href: "https://www.aipump.ai/privacy-policy",
+            title: "",
+            href: "",
           },
           termsOfService: {
-            title: "Terms of Service",
-            href: "https://www.aipump.ai/terms-of-service",
+            title: "",
+            href: "",
           },
-          buyTokens: { title: "Buy AIPUMP", href: "" },
+          buyTokens: { title: "Buy HyperPump", href: "" },
         },
       };
     },
@@ -226,14 +226,14 @@
       "use strict";
       n.d(t, { XZ: () => a, aU: () => i });
       let a = {
-        title: "AI Pump",
-        appUrl: "https://app.aipump.ai",
-        homeUrl: "https://www.aipump.ai",
-        tokenSymbol: "AIPUMP",
-        support: { email: "support@aipump.ai" },
+        title: "HyperPump",
+        appUrl: "https://app.HyperPump.ai",
+        homeUrl: "https://www.HyperPump.ai",
+        tokenSymbol: "HyperPump",
+        support: { email: "support@HyperPump.ai" },
         socials: {
-          x: "https://x.com/aiPump__",
-          telegram: "http://t.me/aiPumpchat",
+          x: "https://x.com/HyperPump__",
+          telegram: "http://t.me/HyperPumpchat",
         },
       };
       a.title, a.title;
@@ -2888,7 +2888,7 @@
                         className: "font-bold text-primary",
                         children: e,
                       }),
-                    countAiPumpStaked: "1,000",
+                    countHyperPumpStaked: "1,000",
                     countGivesNodePoints: (0, p.Pt)({
                       value: u.aU.nodePointsPerHPerK,
                       showAllDecimals: !1,

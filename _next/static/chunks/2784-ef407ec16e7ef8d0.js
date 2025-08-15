@@ -349,7 +349,7 @@
                       children: [
                         (0, r.jsx)(d.L3, {
                           className: "sr-only",
-                          children: "aiPump Menu",
+                          children: "HyperPump Menu",
                         }),
                         (0, r.jsxs)("div", {
                           className:
@@ -833,14 +833,14 @@
       "use strict";
       a.d(t, { XZ: () => r, aU: () => s });
       let r = {
-        title: "AI Pump",
-        appUrl: "https://app.aipump.ai",
-        homeUrl: "https://www.aipump.ai",
-        tokenSymbol: "AIPUMP",
-        support: { email: "support@aipump.ai" },
+        title: "HyperPump",
+        appUrl: "https://app.HyperPump.ai",
+        homeUrl: "https://www.HyperPump.ai",
+        tokenSymbol: "HyperPump",
+        support: { email: "support@HyperPump.ai" },
         socials: {
-          x: "https://x.com/aiPump__",
-          telegram: "http://t.me/aiPumpchat",
+          x: "https://x.com/HyperPump__",
+          telegram: "http://t.me/HyperPumpchat",
         },
       };
       r.title, r.title;
@@ -1104,7 +1104,7 @@
                       ],
                     })
                   : (0, r.jsx)(o.$, {
-                      className: "flex items-center gap-4 uppercase",
+                      className: " flex items-center gap-4 uppercase",
                       onClick: c,
                       size: "buy",
                       children: p("Wallet.ConnectWallet"),
